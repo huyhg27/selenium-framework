@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Practice Suite">
+    <test name="Run on Firefox">
+        <parameter name="browser" value="firefox">
+            <classes>
+                <class name="com.techpanda.account.Account_01_Register_p4"/>
+            </classes>
+        </parameter>
+    </test> <!-- Test -->
+    <test name="Run on Chrome">
+        <parameter name="browser" value="chrome">
+            <classes>
+                <class name="com.techpanda.account.Account_01_Register_p4"/>
+            </classes>
+        </parameter>
+    </test> <!-- Test -->
+
+</suite> <!-- Suite -->
